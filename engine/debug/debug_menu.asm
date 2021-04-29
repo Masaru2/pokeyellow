@@ -102,7 +102,7 @@ TestBattle:
 	hlcoord 0, 0
 	lb bc, 1, 18
 	call TextBoxBorder
-	hlcoord 6, 1
+	hlcoord 5, 1
 	ld de, Text_fed18
 	call PlaceString
 	hlcoord 4, 4
@@ -787,7 +787,7 @@ Func_fec10:
 	hlcoord 0, 0
 	lb bc, 1, 18
 	call TextBoxBorder
-	hlcoord 6, 1
+	hlcoord 5, 1
 	ld de, Text_fed18
 	call PlaceString
 	hlcoord 4, 4
@@ -873,10 +873,10 @@ Text_fed12:
 	db   "けんしろう@" ; "KENSHIROU@"
 
 Text_fed18:
-	db   "テスト ファイト@" ; "FIGHT TEST@"
+	db   "TEST BATTLE@" ; "FIGHT TEST@"
 
 Text_fed21:
-	db   "№．  なまえ    レべル@" ; "№．  NAME  LEVEL@"
+	db   "№．  NAME   Lv.@" ; "№．  NAME  LEVEL@"
 
 Text_fed30:
 	db   "１．▶０００ ーーーーー  ０００"
@@ -893,13 +893,13 @@ Text_feda2:
 	db   "ーーーーー@"
 
 Text_feda8:
-	db   "ワイルドモンスター@" ; "WILD #MON@"
+	db   "WILD #MON @" ; "WILD #MON@"
 
 Text_fedb2:
-	db   "ディーラー    @" ; "TRAINER      @"
+	db   "TRAINER      @" ; "TRAINER      @"
 
 Text_fedbc:
-	db   "№．  なまえ        レべル" ; "№．  NAME     LABEL"
+	db   "№．  NAME       LV." ; "№．  NAME     LABEL"
 	next ""
 Text_fedcf:
 	db   "０００ ーーーーーーーーーー ０００@"
