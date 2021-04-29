@@ -5,12 +5,11 @@ _ViridianCityText_19219::
 	done
 
 _ViridianCityText_1920a::
-	text "Ahh, I've had my"
-	line "coffee now and I"
-	cont "feel great!"
+	text "Mmm......"
+	line "Seems like I was"
+	cont "pretty drunk!"
 
-	para "Sure, you can go"
-	line "through!"
+	para "My head hurts..."
 
 	para "I'm sorry I was"
 	line "so rude to you!"
@@ -81,9 +80,11 @@ _ViridianCityText_19157::
 
 _ViridianCityText_19175::
 	text "Oh Grandpa! Don't"
-	line "be so mean!"
-	cont "He hasn't had his"
-	cont "coffee yet."
+	line "pass out here!"
+	cont "My goodness..."
+	cont "Sorry, but we'll"
+	cont "have to wait till"
+	cont "he sobers up."
 	done
 
 _ViridianCityText_1917a::
@@ -95,11 +96,14 @@ _ViridianCityText_1917a::
 	done
 
 _ViridianCityText_19191::
-	text "You can't go"
-	line "through here!"
+	text "Urgh! Hic..."
+	line "hold on there!"
+	cont "C'mere an lissen"
+	cont "to what I hafta"
+	cont "say!"
 
-	para "This is private"
-	line "property!"
+	para "...Hey!"
+	line "I said don't go!"
 	done
 
 _ViridianCityText_191ca::
