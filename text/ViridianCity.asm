@@ -31,7 +31,7 @@ _OldManTextAfterBattle::
 	line "# BALLs too."
 
 	para "I have to get some"
-	line "at #MON MART."
+	line "at #MON SHOP."
 	done
 
 _ViridianCityText1::

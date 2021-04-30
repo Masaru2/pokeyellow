@@ -49,7 +49,7 @@ _BoulderText::
 _MartSignText::
 	text "All your item"
 	line "needs fulfilled!"
-	cont "#MON MART"
+	cont "#MON SHOP"
 	done
 
 _PokeCenterSignText::
