@@ -1,7 +1,9 @@
 _SafariZoneRestHouse1Text1::
-	text "SARA: Where did"
-	line "my boy friend,"
-	cont "ERIK, go?"
+	text "ATSUKO: Where"
+	line "did KOJI go?"
+
+	para "We were supposed"
+	line "to meet here."
 	done
 
 _SafariZoneRestHouse1Text2::

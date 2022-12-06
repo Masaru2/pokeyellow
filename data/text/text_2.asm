@@ -848,8 +848,8 @@ _PokemonBooksText::
 	done
 
 _DiglettSculptureText::
-	text "It's a sculpture"
-	line "of DIGLETT."
+	text "It's a buddhist"
+	line "altar..."
 	done
 
 _ElevatorText::
