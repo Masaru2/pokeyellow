@@ -105,7 +105,7 @@ TestBattle:
 	hlcoord 5, 1
 	ld de, Text_fed18
 	call PlaceString
-	hlcoord 4, 4
+	hlcoord 1, 4
 	ld de, Text_fed21
 	call PlaceString
 	hlcoord 1, 6
@@ -124,7 +124,7 @@ TestBattle:
 	ld hl, wPartyCount
 	call Func_fe809
 	ld de, wPartySpecies
-	hlcoord 4, 6
+	hlcoord 1, 6
 	; fallthrough
 Func_fe7ca:
 	push hl
@@ -132,7 +132,7 @@ Func_fe7ca:
 	dec hl
 	ld a, "▶"
 	ld [hl], a
-	ld bc, 11
+	ld bc, 15
 	add hl, bc
 	ld a, " "
 	ld [hl], a
@@ -271,7 +271,7 @@ Func_fe8a1:
 	dec hl
 	ld a, " "
 	ld [hl], a
-	ld bc, 11
+	ld bc, 15
 	add hl, bc
 	ld a, "▶"
 	ld [hl], a
@@ -320,7 +320,7 @@ Func_fe8e2:
 	ld [de], a
 	push bc
 	push hl
-	ld bc, 11
+	ld bc, 15
 	add hl, bc
 	lb bc, LEADING_ZEROES | 1, 3
 	call PrintNumber
@@ -349,7 +349,7 @@ Func_fe912:
 	ld [wWhichPokemon], a
 	dec de
 	push hl
-	ld bc, 10
+	ld bc, 14
 	add hl, bc
 	ld a, " "
 	ld [hl], a
@@ -357,7 +357,7 @@ Func_fe912:
 	ld bc, hMovingBGTilesCounter1
 	add hl, bc
 	push hl
-	ld bc, 10
+	ld bc, 14
 	add hl, bc
 	ld a, "▶"
 	ld [hl], a
@@ -373,7 +373,7 @@ Func_fe93b:
 	ld [wWhichPokemon], a
 	inc de
 	push hl
-	ld bc, 10
+	ld bc, 14
 	add hl, bc
 	ld a, " "
 	ld [hl], a
@@ -381,7 +381,7 @@ Func_fe93b:
 	ld bc, SCREEN_WIDTH * 2
 	add hl, bc
 	push hl
-	ld bc, 10
+	ld bc, 14
 	add hl, bc
 	ld a, "▶"
 	ld [hl], a
@@ -566,7 +566,7 @@ Func_fea9d:
 	ld a, 2
 	ld [wIsInBattle], a
 	ld a, " "
-	ldcoord_a 4, 3
+	ldcoord_a 1, 3
 	hlcoord 1, 4
 	ld de, Text_fedb2
 	call PlaceString
@@ -876,21 +876,21 @@ Text_fed18:
 	db   "BATTLE TEST@" ; "FIGHT TEST@"
 
 Text_fed21:
-	db   "№．  NAME   Lv.@" ; "№．  NAME  LEVEL@"
+	db   "№．  NAME       Lv.@" ; "№．  NAME  LEVEL@"
 
 Text_fed30:
-	db   "１．▶０００ ーーーーー  ０００"
-	next "２． ０００ ーーーーー  ０００"
-	next "３． ０００ ーーーーー  ０００"
-	next "４． ０００ ーーーーー  ０００"
-	next "５． ０００ ーーーーー  ０００"
-	next "６． ０００ ーーーーー  ０００@"
+	db   "０００ ーーーーーーーーーー ０００"
+	next "０００ ーーーーーーーーーー ０００"
+	next "０００ ーーーーーーーーーー ０００"
+	next "０００ ーーーーーーーーーー ０００"
+	next "０００ ーーーーーーーーーー ０００"
+	next "０００ ーーーーーーーーーー ０００@"
 
 Text_fed9c:
-	db   "     @"
+	db   "          @"
 
 Text_feda2:
-	db   "ーーーーー@"
+	db   "ーーーーーーーーーー@"
 
 Text_feda8:
 	db   "WILD #MON @" ; "WILD #MON@"
@@ -899,7 +899,7 @@ Text_fedb2:
 	db   "TRAINER      @" ; "TRAINER      @"
 
 Text_fedbc:
-	db   "№．  NAME       LV." ; "№．  NAME     LABEL"
+	db   "№．  NAME       Lv." ; "№．  NAME     LABEL"
 	next ""
 Text_fedcf:
 	db   "０００ ーーーーーーーーーー ０００@"
