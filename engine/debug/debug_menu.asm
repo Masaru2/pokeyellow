@@ -790,7 +790,7 @@ Func_fec10:
 	hlcoord 5, 1
 	ld de, Text_fed18
 	call PlaceString
-	hlcoord 4, 4
+	hlcoord 1, 4
 	ld de, Text_fed21
 	call PlaceString
 	hlcoord 1, 6
@@ -801,7 +801,7 @@ Func_fec10:
 	ld [de], a
 	ld [wWhichPokemon], a
 	inc de
-	hlcoord 4, 6
+	hlcoord 1, 6
 	push de
 	push hl
 	; fallthrough
@@ -827,7 +827,7 @@ Func_fec9b:
 	call PlaceString
 	pop hl
 	push hl
-	ld bc, 11
+	ld bc, 15
 	add hl, bc
 	push hl
 	ld a, [wWhichPokemon]
