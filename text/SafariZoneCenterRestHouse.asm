@@ -2,8 +2,8 @@ _SafariZoneRestHouse1Text1::
 	text "ATSUKO: Where"
 	line "did KOJI go?"
 
-	para "We were supposed"
-	line "to meet here."
+	para "I said I'd meet"
+	line "him here."
 	done
 
 _SafariZoneRestHouse1Text2::
