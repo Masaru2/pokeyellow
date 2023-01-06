@@ -775,6 +775,7 @@ Func_fec10:
 	ld bc, wPlayerNumAttacksLeft - wEnemyStatsToDouble
 	call FillMemory
 	call LoadFontTilePatterns
+	call LoadHpBarAndStatusTilePatterns
 	call ClearScreen
 	call ClearSprites
 	ld a, %11100100
