@@ -514,7 +514,12 @@ DrawTrainerInfo:
 	call TrainerInfo_FarCopyData
 	ld hl, BlankLeaderNames
 	ld de, vChars2 tile $60
-	ld bc, $17 tiles
+;	ld bc, $17 tiles
+	ld bc, $15 tiles
+	call TrainerInfo_FarCopyData
+	ld hl, CircleTile
+	ld de, vChars2 tile $76
+	ld bc, $10
 	call TrainerInfo_FarCopyData
 	pop bc
 	ld hl, BadgeNumbersTileGraphics  ; badge number tile patterns
