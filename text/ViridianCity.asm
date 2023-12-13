@@ -6,16 +6,18 @@ _ViridianCityText_19219::
 
 _ViridianCityText_1920a::
 	text "Ugh..."
-	line "looks like I was"
-	cont "drunk!"
+	line "Seems that I"
+	cont "was drunk!"
 
 	para "My head hurts..."
 
-	para "I'm sorry I was"
-	line "so rude to you!"
+	para "... ... What?"
+	line "Was I blocking"
+	cont "the path?"
 
-	para "I see you're using"
-	line "a #DEX."
+	para "... ... I see"
+	line "you're using a"
+	cont "#DEX."
 
 	para "I'll show you how"
 	line "to catch #MON"
@@ -105,7 +107,7 @@ _ViridianCityText_19191::
 	cont "Lissen to what"
 	cont "I hafta say!"
 
-	para "...Hey!"
+	para "...Wait!"
 	line "I said don't go!"
 	done
 
