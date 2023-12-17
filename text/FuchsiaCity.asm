@@ -16,15 +16,27 @@ _FuchsiaCityText2::
 	done
 
 _FuchsiaCityText3::
-	text "KOJI: Where's"
-	line "ATSUKO? I said"
-	cont "I'd meet her here."
+	text "KOJI: Isn't that"
+	line "weird?"
+	
+	para "ATSUKO told me"
+	line "there'd be Bird"
+	cont "and Worm #MON"
+	cont "here..."
+	
+	para "But I can't find"
+	line "them!"
 	done
 
 _FuchsiaCityText4::
 	text "That item ball in"
-	line "there is really a"
-	cont "#MON."
+	line "there..."
+	
+	para "Were you wanting"
+	line "that? Me, too!"
+	
+	para "...Huh? That's a"
+	line "#MON?"
 	done
 
 _FuchsiaCityText5::

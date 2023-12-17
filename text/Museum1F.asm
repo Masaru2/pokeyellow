@@ -53,9 +53,12 @@ _Museum1FText_5c242::
 	done
 
 _Museum1FText_5c251::
-	text "That is one"
-	line "magnificent"
-	cont "fossil!"
+	text "Thank Heavens!"
+	line "Thank Heavens!"
+	
+	para "I'm praying to"
+	line "the bones of"
+	cont "Lord Ryujin."
 	done
 
 _Museum1FText_5c28e::

@@ -7,7 +7,7 @@ _EnemyAppearedText::
 _TrainerWantsToFightText::
 	text_ram wTrainerName
 	text ""
-	line "challenged you!"
+	line "challenges you!"
 	prompt
 
 _UnveiledGhostText::

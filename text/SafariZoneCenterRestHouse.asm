@@ -1,9 +1,11 @@
 _SafariZoneRestHouse1Text1::
-	text "ATSUKO: Where"
-	line "did KOJI go?"
-
-	para "I said I'd meet"
-	line "him here."
+	text "ATSUKO: I told"
+	line "him that the"
+	cont "early bird gets"
+	cont "the worm..."
+	
+	para "Where could KOJI"
+	line "be?!"
 	done
 
 _SafariZoneRestHouse1Text2::

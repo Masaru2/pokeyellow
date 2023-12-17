@@ -849,7 +849,7 @@ _PokemonBooksText::
 
 _DiglettSculptureText::
 	text "It's a buddhist"
-	line "altar..."
+	line "shrine..."
 	done
 
 _ElevatorText::

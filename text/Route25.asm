@@ -35,7 +35,7 @@ _Route25AfterBattleText2::
 	done
 
 _Route25BattleText3::
-	text "I'm a cool guy."
+	text "I'm a boy scout."
 	line "I've got a girl"
 	cont "friend!"
 	done

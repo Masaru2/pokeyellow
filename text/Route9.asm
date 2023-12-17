@@ -48,8 +48,9 @@ _Route9AfterBattleText3::
 	done
 
 _Route9BattleText4::
-	text "Don't you dare"
-	line "condescend me!"
+	text "No holding back"
+	line "just because I'm"
+	cont "a girl, okay!"
 	done
 
 _Route9EndBattleText4::

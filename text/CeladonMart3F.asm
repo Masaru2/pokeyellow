@@ -14,18 +14,19 @@ _CeladonMart3Text3::
 	para "My buddy's going"
 	line "to trade me his"
 	cont "KANGASKHAN for my"
-	cont "GRAVELER!"
+	cont "HAUNTER!"
 	done
 
 _CeladonMart3Text4::
-	text "Come on GRAVELER!"
+	text "Come on, my sweet"
+	line "HAUNTY-pie!"
 
-	para "I love GRAVELER!"
-	line "I collect them!"
+	para "I'm an absolute"
+	line "HAUNTER maniac."
 
-	para "Huh?"
+	para "... ...Huh?"
 
-	para "GRAVELER turned"
+	para "HAUNTER turned"
 	line "into a different"
 	cont "#MON!"
 	done
@@ -66,7 +67,7 @@ _CeladonMart3Text14::
 	done
 
 _CeladonMart3Text15::
-	text "Red and Blue!"
+	text "Red and Green!"
 	line "Both are #MON!"
 	done
 
