@@ -68,9 +68,9 @@ _ComeBackText::
 ; money related
 _PickUpPayDayMoneyText::
 	text "<PLAYER> picked up"
-	line "¥@"
+	line "@"
 	text_bcd wTotalPayDayMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text "!"
+	text "¥!"
 	prompt
 
 _ClearSaveDataText::
