@@ -1,6 +1,6 @@
-UnknownText_2812:: ; unreferenced
-	text_far _PokemonText
-	text_end
+;UnknownText_2812:: ; unreferenced
+;	text_far _PokemonText
+;	text_end
 
 ; this function is used to display sign messages, sprite dialog, etc.
 ; INPUT: [hSpriteIndex] = sprite ID or [hTextID] = text ID
