@@ -1506,3 +1506,8 @@ _MewDexEntry::
 	next "fine, delicate"
 	next "hair can be seen"
 	dex
+
+_MissingNoDexEntry::
+	text "Comment to be"
+	next "written"
+	dex
